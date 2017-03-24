@@ -59,6 +59,7 @@ p{
   background-color: purple;
   height: 20rem;
   width: 29rem;
+  display: flex;
 }
 
 /*ARTICLE CONTENT*/
@@ -114,3 +115,20 @@ p{
 /*ARTICLE CONTENT NUM5*/
 
 /*ARTICLE CONTENT NUM6*/
+
+/*ARTICLE CONTENT LG1*/
+.article.about{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.article.photo.LG1{
+  background-image: url("images/Fariborz-UCR.jpg");
+  width: 150rem;
+}
+.article.text.LG1{
+  font-size: 1.2rem;
+}
+.article.nav.LG1{
+  height: 3rem;
+}
