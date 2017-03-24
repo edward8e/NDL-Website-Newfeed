@@ -1,0 +1,98 @@
+body{
+  display: flex;
+  justify-content: center;
+  font-family: rajdhani;
+}
+.rectangle{
+  margin: 10px;
+  box-shadow: 0 0px 8px rgba(0,0,0,0.2);
+}
+p{
+  margin: 0px;
+}
+/*WEBSITE LAYOUT*/
+
+.content-area{
+  /*background-color: blue;*/
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.column.main{
+  /*background-color: white;*/
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.column.main.sub{
+  /*background-color: yellow;*/
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.column.main.sub-div{
+  /*background-color: green;*/
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+/*CONTENT BOXES*/
+
+.column.rectangle.article{
+  background-color: red;
+  height: 20rem;
+  width: 14rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.column.rectangle.quote{
+  background-color: purple;
+  height: 9rem;
+  width: 14rem;
+}
+
+.column.rectangle.lg-article{
+  background-color: purple;
+  height: 20rem;
+  width: 29rem;
+}
+
+/*ARTICLE CONTENT*/
+
+.article.photo1{
+  background-image: url("images/Nanoscale-InSe.JPG");
+  background-position: center;
+  background-size: cover;
+  height: 20rem;
+  width: 100%;
+}
+.article.text{
+  background-color: white;
+  font-size: 1.4rem;
+  height: inherit;
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+
+}
+.article.nav{
+  background-color: white;
+  height: 5rem;
+  display: flex;
+  font-weight: bold;
+  color: purple;
+}
+.nav.sub{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0rem 1rem;
+}
+.nav.sub img{
+  height: 1.5rem;
+}
