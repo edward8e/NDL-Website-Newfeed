@@ -63,7 +63,7 @@ p{
 
 /*ARTICLE CONTENT*/
 
-.article.photo1{
+.article.photo{
   background-image: url("images/Nanoscale-InSe.JPG");
   background-position: center;
   background-size: cover;
@@ -94,5 +94,23 @@ p{
   padding: 0rem 1rem;
 }
 .nav.sub img{
-  height: 1.5rem;
+  height: 25px;
 }
+
+/*ARTICLE CONTENT NUM2*/
+
+.article.photo.num2{
+  background-image: url("images/Nature-Nano-CDW.JPG");
+}
+
+/*ARTICLE CONTENT NUM3*/
+
+.article.photo.num3{
+  background-image: url("images/Balandin-Liu-Selected-e1467237833247.jpg");
+}
+
+/*ARTICLE CONTENT NUM4*/
+
+/*ARTICLE CONTENT NUM5*/
+
+/*ARTICLE CONTENT NUM6*/
