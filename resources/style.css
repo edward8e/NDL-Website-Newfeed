@@ -84,6 +84,7 @@ p{
   height: 5rem;
   display: flex;
   font-weight: bold;
+  padding: 0 1rem;
   color: purple;
 }
 .nav.sub{
@@ -91,10 +92,9 @@ p{
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 0rem 1rem;
 }
 .nav.sub img{
-  height: 25px;
+  height: 1.5rem;
 }
 
 /*ARTICLE CONTENT NUM2*/
