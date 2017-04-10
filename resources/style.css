@@ -3,140 +3,76 @@
 	font-family: "rajdhani";
 	src: url(../fonts/Rajdhani-Regular.ttf) format('truetype');
 }
+@font-face{
+	font-family: "rajdhani";
+	src: url(/fonts/Rajdhani-Bold.ttf) format('truetype');
+	font-weight: bold;
+}
 
 body{
-  display: flex;
-  justify-content: center;
-  font-family: rajdhani,Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif";
+	font-family: rajdhani,Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif";
+	font-size: 18px;
 }
-.rectangle{
-  margin: 10px;
-  box-shadow: 0 0px 8px rgba(0,0,0,0.2);
+.main-section{
+	width: 95%;
 }
-p{
-  margin: 0px;
-}
-
-
 /*WEBSITE LAYOUT*/
 
-.content-area{
-  /*background-color: blue;*/
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+
+img{
+	width: 100%;
+	height: auto;
 }
-.column.main{
-  /*background-color: white;*/
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  flex-wrap: wrap;
+.col-md-12{
+	padding-left: 0px;
+	padding-right: 0px;
 }
-.column.main.sub{
-  /*background-color: yellow;*/
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-.column.main.sub-div{
-  /*background-color: green;*/
-  display: flex;
-  flex-wrap: wrap;
+.article{
+	margin: 2rem;
+	box-shadow: 0 0px 8px rgba(0,0,0,0.2);
 }
 
 
-/*CONTENT BOXES*/
+/*Small Article Block*/
 
-.column.rectangle.article{
-  background-color: red;
-  height: 20rem;
-  width: 14rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+.small-art{
+	background-color: #02b2f4;
+	color: white;
+	text-align: center;
+	height: 22rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
-.column.rectangle.quote{
-  background-color: purple;
-  height: 9rem;
-  width: 14rem;
-}
-
-.column.rectangle.lg-article{
-  background-color: purple;
-  height: 20rem;
-  width: 29rem;
-  display: flex;
+.small-art h1{
+	font-size: 4rem;
+	padding: 0rem 1rem;
 }
 
-/*ARTICLE CONTENT*/
 
-.article.photo{
-  background-image: url("images/Nanoscale-InSe.JPG");
-  background-position: center;
-  background-size: cover;
-  height: 20rem;
-  width: 100%;
-}
-.article.text{
-  background-color: white;
-  font-size: 1.4rem;
-  height: inherit;
-  padding: 0 1rem;
-  display: flex;
-  align-items: center;
+/*Medium Article Block*/
 
+.medium-art{
+	
+	
 }
-.article.nav{
-  background-color: white;
-  height: 5rem;
-  display: flex;
-  font-weight: bold;
-  padding: 0 1rem;
-  color: purple;
-}
-.nav.sub{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-}
-.nav.sub img{
-  height: 1.5rem;
+.news-nav{
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	padding: 2rem;
 }
 
-/*ARTICLE CONTENT NUM2*/
-
-.article.photo.num2{
-  background-image: url("images/Nature-Nano-CDW.JPG");
+.text-section .fa{
+	color: #ef0166;
 }
 
-/*ARTICLE CONTENT NUM3*/
+/*Large Article Block*/
 
-.article.photo.num3{
-  background-image: url("images/Balandin-Liu-Selected-e1467237833247.jpg");
-}
-
-/*ARTICLE CONTENT NUM4*/
-
-/*ARTICLE CONTENT NUM5*/
-
-/*ARTICLE CONTENT NUM6*/
-
-/*ARTICLE CONTENT LG1*/
-.article.about{
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
-.article.photo.LG1{
-  background-image: url("images/Fariborz-UCR.jpg");
-  width: 150rem;
-}
-.article.text.LG1{
-  font-size: 1.2rem;
-}
-.article.nav.LG1{
-  height: 3rem;
+.lg-text{
+	position: fixed;
+	top: 5rem;
+	font-weight: bold;
+	
 }
