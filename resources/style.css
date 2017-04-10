@@ -1,7 +1,13 @@
+/*Newsfeed Fonts*/
+@font-face{
+	font-family: "rajdhani";
+	src: url(../fonts/Rajdhani-Regular.ttf) format('truetype');
+}
+
 body{
   display: flex;
   justify-content: center;
-  font-family: rajdhani;
+  font-family: rajdhani,Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif";
 }
 .rectangle{
   margin: 10px;
@@ -10,6 +16,8 @@ body{
 p{
   margin: 0px;
 }
+
+
 /*WEBSITE LAYOUT*/
 
 .content-area{
